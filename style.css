@@ -172,10 +172,18 @@ nav {
   width: 90%;
   margin: 2%;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
   font-size: 30px;
 }
-.nav__firstblock_left {
+
+.nav__main_blocks {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  margin-right: 1%;
+}
+.nav__firstblock {
   background-color: #c5a78a;
   border: 2px solid #6f4e37;
   border-radius: 15px;
@@ -185,7 +193,7 @@ nav {
   padding-top: 25px;
   margin-right: 50px;
 }
-.nav__firstblock_left:hover {
+.nav__firstblock:hover {
   background-color: orange;
   border: 2px solid #6f4e37;
   width: 17%;
@@ -195,7 +203,7 @@ nav {
   transition: 1s;
 }
 
-.nav__secondblock_right {
+.nav__secondblock {
   background-color: #c5a78a;
   border: 2px solid #6f4e37;
   border-radius: 15px;
@@ -203,9 +211,10 @@ nav {
   height: 50px;
   text-align: center;
   padding-top: 25px;
+  margin-right: 50px;
 }
 
-.nav__secondblock_right:hover {
+.nav__secondblock:hover {
   background-color: orange;
   border: 2px solid #6f4e37;
   width: 17%;
@@ -214,6 +223,29 @@ nav {
   padding-top: 25px;
   transition: 1s;
 }
+.nav__thirdblock {
+  background-color: #c5a78a;
+  border: 2px solid #6f4e37;
+  border-radius: 15px;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  padding-top: 25px;
+}
+.nav__thirdblock:hover {
+  background-color: orange;
+  border: 2px solid #6f4e37;
+  width: 22%;
+  height: 60px;
+  text-align: center;
+  padding-top: 25px;
+  transition: 1s;
+}
+
+.nav__input {
+  outline: none;
+}
+
 /* NAVBAR END */
 
 /* MAIN START */
